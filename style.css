@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #googleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  #googleContainer img {
+    width: 310px;
+    height: 128px;
+  }
+  
+  
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 200px 100px;
+  }
+  
+  .navBar {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .navBar a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    font-size: 14px;
+  
+  }
+  
+  .navBar a:hover {
+    text-decoration: underline;
+  }
+  
+  .searchInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+    padding: 0px 20px;
+  }
+  
+  .searchInput input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+  
+  
+  }
+  
+  form button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px text-align: center;
+    padding: 10px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+  
+  .googleButtons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .middleBottomNav {
+    margin-right: 50px;
+  }
+  
+  footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 20px 30px;
+  }
+  
+  .leaf {
+    height: 18px;
+    width: 18px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  
